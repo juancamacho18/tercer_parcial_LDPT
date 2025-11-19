@@ -119,15 +119,15 @@ o
 el archivo main ya contiene el archivo de "matrices.txt" que es donde se hacen las pruebas para las matrices, ahi se puede editar y probar para mirar el resultado del calculo (tener en cuenta siempre la estructura para trabajar, siempre se asigna un ID para una matriz).
 Ejemplo de salida:
 
-Código generado:
-
-A=[[1,2],[3,4]]
-B=[[5,6],[7,8]]
-C=A*B
-print(C)
-
-Salida del programa:
-[[19, 22], [43, 50]]
+        Código generado:
+        
+        A=[[1,2],[3,4]]
+        B=[[5,6],[7,8]]
+        C=A*B
+        print(C)
+        
+        Salida del programa:
+        [[19, 22], [43, 50]]
 
 
 
