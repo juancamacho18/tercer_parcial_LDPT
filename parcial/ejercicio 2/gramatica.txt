@@ -1,0 +1,33 @@
+programa -> sentencias
+
+sentencias -> sentencia sentencias
+sentencias -> ε
+
+sentencia -> asignar ';'
+sentencia -> imprimir ';'
+
+asignar -> ID '=' expr
+
+imprimir -> 'print' ID
+
+expr -> expr_mul
+
+expr_mul -> expr_mul '*' expr_atom
+expr_mul -> expr_atom
+
+expr_punto -> matriz
+expr_punto -> ID
+expr_punto -> '(' expr ')'
+
+matriz -> '[' filas ']'
+
+filas -> fila
+filas -> fila ',' filas
+
+fila -> '[' numeros ']'
+
+numeros -> numero
+numeros -> numero ',' numeros
+
+numero -> ENTERO 
+numero -> REAL
